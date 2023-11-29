@@ -35,7 +35,8 @@ The project architecture is designed around microservices, each playing a specif
 For a more detailed understanding of the architecture, please refer to the Architecture Documentation.
 
 ## Features
-1. Message Brokering
+1. Message Brokering:
+   
 Implementing a message broker allows for:
 
 Message Validation: Ensure the integrity and validity of incoming messages.
@@ -45,6 +46,7 @@ Transformation: Modify message formats to suit the needs of different services.
 Routing: Efficiently direct messages to their intended recipients.
 
 2. Microservices Architecture
+   
 Utilize Netflix OSS for:
 
 Service Discovery: Automatically locate and connect to services.
@@ -52,6 +54,7 @@ Service Discovery: Automatically locate and connect to services.
 Configuration: Dynamically manage configurations for each microservice.
 
 3. Distributed Messaging
+   
 Leverage Kafka for:
 
 Scalable and Reliable Messaging: Ensure messages are delivered reliably and at scale.
@@ -59,6 +62,7 @@ Scalable and Reliable Messaging: Ensure messages are delivered reliably and at s
 Decoupling Services: Minimize dependencies among microservices.
 
 4. Log Monitoring
+   
 Enhance system observability with:
 
 Centralized Logging: Aggregate logs from different microservices.
